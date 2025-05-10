@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import { GoDotFill } from "react-icons/go";
-import { FaArrowRight } from "react-icons/fa6";
 import { GoShieldCheck } from "react-icons/go";
 import { BsHourglass } from "react-icons/bs";
 import { BsAward } from "react-icons/bs";
@@ -92,9 +91,9 @@ function Home() {
     
     const slideOne = (
         <div className="  h-max bg-[url('https://via.placeholder.com/1920x1100')] xs:w-[90%] lg:w-[50%] lg:pl-[100px]">
-            <p className="text-xl m-[20px] text-[#f5f5f5] xs:w-full lg:w-[50%]">Best Solution for your business</p>
-            <p className="xs:text-5xl lg:text-6xl font-bold m-[20px] text-white xs:w-full lg:w-[50%]">Agency for your great business</p>
-            <div className="bg-textColorOne py-[8px] px-[30px] text-white rounded-full flex justify-between items-center shadow-xl w-[290px] "><p>GET STARTED NOW</p> <span className="bg-white shadow-lg text-textColorOne rounded-full p-[15px]"><FaArrowRight /></span> </div>
+            <p className="text-xl m-[20px] text-[#f5f5f5] xs:w-full lg:w-[80%]">Best Solution for your business</p>
+            <p className="xs:text-5xl lg:text-6xl font-bold m-[20px] text-white xs:w-full lg:w-[80%]">Agency for your great business</p>
+            
 
             
         </div>
@@ -102,9 +101,9 @@ function Home() {
     )
     const slideTwo = (
         <div className="  h-max bg-[url('https://via.placeholder.com/1920x1100')] xs:w-[90%] lg:w-[50%] lg:pl-[100px]">
-            <p className="text-xl m-[20px]  text-[#f5f5f5] xs:w-full lg:w-[50%]">Delivering beautiful digital products</p>
-            <p className="xs:text-5xl lg:text-6xl font-bold m-[20px]  text-white xs:w-full lg:w-[50%]">Shape the future of marketing</p>
-            <div className="bg-textColorOne py-[8px] px-[30px] text-white rounded-full flex justify-between items-center shadow-xl w-[290px]"><p>GET STARTED NOW</p> <span className="bg-white shadow-lg text-textColorOne rounded-full p-[15px]"><FaArrowRight /></span> </div>
+            <p className="text-xl m-[20px]  text-[#f5f5f5] xs:w-full lg:w-[80%]">Delivering beautiful digital products</p>
+            <p className="xs:text-5xl lg:text-6xl font-bold m-[20px]  text-white xs:w-full lg:w-[80%]">Shape the future of marketing</p>
+            
 
             
         </div>
@@ -112,9 +111,9 @@ function Home() {
     )
     const slideThree = (
         <div className="  h-max bg-[url('https://via.placeholder.com/1920x1100')] xs:w-[90%] lg:w-[50%] lg:pl-[100px]">
-            <p className="text-xl m-[20px]  text-[#f5f5f5] xs:w-full lg:w-[50%]">Best strategies and top ideas</p>
-            <p className="xs:text-5xl lg:text-6xl font-bold m-[20px]  text-white xs:w-full lg:w-[50%]">Provide solution to small business</p>
-            <div className="bg-textColorOne py-[8px] px-[30px] text-white rounded-full flex justify-between items-center shadow-xl w-[290px]"><p>GET STARTED NOW</p> <span className="bg-white shadow-lg text-textColorOne rounded-full p-[15px]"><FaArrowRight /></span> </div>
+            <p className="text-xl m-[20px]  text-[#f5f5f5] xs:w-full lg:w-[80%]">Best strategies and top ideas</p>
+            <p className="xs:text-5xl lg:text-6xl font-bold m-[20px]  text-white xs:w-full lg:w-[80%]">Provide solution to small business</p>
+            
 
             
         </div>
@@ -137,7 +136,7 @@ function Home() {
     return (
     <div className="font-Sora">
         {/* start image slider */}
-        <div className="bg-gradient-to-tr from-textColorOne to-slate-900 py-[20px] h-screen flex flex-col justify-evenly">
+        <div className="bg-gradient-to-tr from-textColorOne to-yellow-600  py-[20px] h-screen flex flex-col justify-evenly">
             <div className="overflow-hidden flex w-full " >
                 {
                     slides.map((slide)=>(
@@ -184,10 +183,10 @@ function Home() {
             <h1 className="text-[33px] text-center">Professional and highly dedicated business services</h1>
             <div className="flex xs:flex-col lg:flex-row justify-between lg:m-[100px] xs:my-[50px]">
                 <ul className="lg:w-[30%] px-[15px] space-y-4">
-                    <li className={`hover:bg-white hover:text-textColorOne ${busServ === 'businessPlanning' ? "bg-white text-textColorOne" : ""} w-[260px] px-[20px] py-[20px] flex text-[18px] space-x-4 rounded-md transition-[background , color] duration-1000 ease-in-out text-center`} onClick={()=> setActBusServ("businessPlanning")}><PiSuitcase className="text-2xl"/>Business Planning</li>
-                    <li className={`hover:bg-white hover:text-textColorOne ${busServ === 'businessResearch' ? "bg-white text-textColorOne" : ""} w-[260px] px-[20px] py-[20px] flex text-[18px] space-x-4 rounded-md transition-[background , color] duration-1000 ease-in-out text-center`} onClick={()=> setActBusServ("businessResearch")}><FiEdit className="text-2xl"/>Business research</li>
-                    <li className={`hover:bg-white hover:text-textColorOne ${busServ === 'trackingOperations' ? "bg-white text-textColorOne" : ""} w-[260px] px-[20px] py-[20px] flex text-[18px] space-x-4 rounded-md transition-[background , color] duration-1000 ease-in-out text-center`} onClick={()=> setActBusServ("trackingOperations")}><PiCompass className="text-2xl"/>Trackin operations</li>
-                    <li className={`hover:bg-white hover:text-textColorOne ${busServ === 'businessCampaign' ? "bg-white text-textColorOne" : ""} w-[260px] px-[20px] py-[20px] flex text-[18px] space-x-4 rounded-md transition-[background , color] duration-1000 ease-in-out text-center`} onClick={()=> setActBusServ("businessCampaign")}><BsGlobe2 className="text-2xl"/>Business campaign</li>
+                    <li className={`hover:bg-white hover:text-textColorOne hover:cursor-pointer ${busServ === 'businessPlanning' ? "bg-white text-textColorOne" : ""} w-[260px] px-[20px] py-[20px] flex text-[18px] space-x-4 rounded-md transition-[background , color] duration-1000 ease-in-out text-center`} onClick={()=> setActBusServ("businessPlanning")}><PiSuitcase className="text-2xl"/>Business Planning</li>
+                    <li className={`hover:bg-white hover:text-textColorOne hover:cursor-pointer ${busServ === 'businessResearch' ? "bg-white text-textColorOne" : ""} w-[260px] px-[20px] py-[20px] flex text-[18px] space-x-4 rounded-md transition-[background , color] duration-1000 ease-in-out text-center`} onClick={()=> setActBusServ("businessResearch")}><FiEdit className="text-2xl"/>Business research</li>
+                    <li className={`hover:bg-white hover:text-textColorOne hover:cursor-pointer ${busServ === 'trackingOperations' ? "bg-white text-textColorOne" : ""} w-[260px] px-[20px] py-[20px] flex text-[18px] space-x-4 rounded-md transition-[background , color] duration-1000 ease-in-out text-center`} onClick={()=> setActBusServ("trackingOperations")}><PiCompass className="text-2xl"/>Trackin operations</li>
+                    <li className={`hover:bg-white hover:text-textColorOne hover:cursor-pointer ${busServ === 'businessCampaign' ? "bg-white text-textColorOne" : ""} w-[260px] px-[20px] py-[20px] flex text-[18px] space-x-4 rounded-md transition-[background , color] duration-1000 ease-in-out text-center`} onClick={()=> setActBusServ("businessCampaign")}><BsGlobe2 className="text-2xl"/>Business campaign</li>
                 </ul>
                 <div className="lg:w-[30%] transition-all duration-1000 ease-in-out my-[50px] ">
                     {businessServices[busServ]}

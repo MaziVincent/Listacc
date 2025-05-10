@@ -7,7 +7,7 @@ function About() {
     <div>
       <div>
         {/* section1 */}
-        <div className="bg-[#1f232c] h-[480px] flex justify-center items-center flex-col">
+        <div className="bg-[#1a2c58] h-[480px] flex justify-center items-center flex-col">
           <h1 className="w-[90%] text-center xs:text-[40px] lg:text-[76px] text-white my-[20px] font-BeVietnam">
             About-business
           </h1>

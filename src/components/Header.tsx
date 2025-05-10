@@ -1,11 +1,11 @@
 import { FiMenu, FiX } from "react-icons/fi";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { PiSuitcaseSimpleThin } from "react-icons/pi";
-import { BsClipboardData } from "react-icons/bs";
-import { TbPeace } from "react-icons/tb";
-import { BsBarChartLine } from "react-icons/bs";
-import { BsSendCheck } from "react-icons/bs";
-import { BsGlobe2 } from "react-icons/bs";
+// import { PiSuitcaseSimpleThin } from "react-icons/pi";
+// import { BsClipboardData } from "react-icons/bs";
+// import { TbPeace } from "react-icons/tb";
+// import { BsBarChartLine } from "react-icons/bs";
+// import { BsSendCheck } from "react-icons/bs";
+// import { BsGlobe2 } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { RiArrowDropUpLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
@@ -43,7 +43,7 @@ function Header() {
         <Link to={"/about"}>About</Link>
         <Link to={"/"} className="" onClick={toggleDropDown}>
           <div className="flex flex-row justify-between services">Services</div>
-          <div
+          {/* <div
             className={`flex flex-col bg-dropdown mx-[-20px] p-[20px] space-y-[20px] text-lg text-white servicesDropDown`}
           >
             <Link
@@ -85,12 +85,12 @@ function Header() {
               <BsGlobe2 className="text-[30px] pr-[10px]" />
               Digital Solutions
             </Link>
-          </div>
+          </div> */}
         </Link>
         <Link to={"/"}>Client</Link>
         <Link to={"/"}>Pricing</Link>
         <Link to={"/"}>Blog</Link>
-        <Link to={"/"}>Contact</Link>
+        <Link to={"/contact"}>Contact</Link>
       </nav>
     </div>
   );
@@ -100,8 +100,8 @@ function Header() {
       <div className={`fixed top-0 left-0 w-full xs:bg-[#f5f5f5] lg:bg-transparent z-10 font-Sora transition-all duration-300 ease-in-out ${isScrolled ? "lg:bg-white lg:text-dropdown" : "lg:bg-transparent lg:text-white"}`}>
         <header>
           <div className="flex flex-row justify-between p-[20px]">
-            <div className="py-[4px]">
-              <img
+            <div className="">
+              {/* <img
                 src="/images/demo-business-logo-black.png"
                 alt="Black Logo"
                 className="block lg:hidden w-auto h-auto"
@@ -110,7 +110,8 @@ function Header() {
                 src="/images/demo-business-logo-white.png"
                 alt="White Logo"
                 className="hidden lg:block w-auto h-auto"
-              />
+              /> */}
+              <img src="/images/Listacc-logo-01.png" alt=""  className="w-[100px] h-[40px]"/>
             </div>
 
             <div className="w-[50%] xs:hidden lg:block py-[4px]">
@@ -120,7 +121,7 @@ function Header() {
               <div className="xs:hidden xl:block py-[4px]">
                 <p>1 800 222 000</p>
               </div>
-              <button className=" border-[2px] py-[4px] px-[20px] rounded-3xl border-dropdown xs:hidden md:block ">
+              <button className=" border-[2px] py-[4px] px-[20px] rounded-3xl border-[#1a2c58] xs:hidden md:block ">
                 Get A Quote
               </button>
               <button
@@ -146,7 +147,7 @@ function Header() {
                     {dropDown ? <RiArrowDropDownLine /> : <RiArrowDropUpLine />}
                   </button>
                 </div>
-                <div
+                {/* <div
                   className={`${
                     dropDown ? "block" : "hidden"
                   } flex flex-col bg-dropdown mx-[-20px] p-[20px] space-y-[20px] text-lg text-white`}
@@ -190,12 +191,12 @@ function Header() {
                     <BsGlobe2 className="text-[30px] pr-[10px]" />
                     Digital Solutions
                   </Link>
-                </div>
+                </div> */}
               </Link>
               <Link to={"/"}>Client</Link>
               <Link to={"/"}>Pricing</Link>
               <Link to={"/"}>Blog</Link>
-              <Link to={"/"}>Contact</Link>
+              <Link to={"/contact"}>Contact</Link>
             </nav>
           </div>
         </header>

@@ -3,7 +3,7 @@ import { CiMail } from "react-icons/ci";
 
 function Footer() {
   return (
-    <div className="bg-dropdown text-textColorTwo py-5 font-BeVietnam text-[17px] xs:py-10">
+    <div className="bg-[#1a2c58] text-textColorTwo py-5 font-BeVietnam text-[17px] xs:py-10">
         <div className="flex lg:w-[80%] xs:w-[90%] xs:flex-col-reverse lg:flex-row mx-auto justify-between">
             <div className="lg:w-[20%]">
                 <img src="/images/demo-business-logo-white.png" alt="" />
