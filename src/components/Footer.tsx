@@ -4,11 +4,11 @@ import { CiMail } from "react-icons/ci";
 function Footer() {
   return (
     <div className="bg-[#1a2c58] text-textColorTwo py-5 font-BeVietnam text-[17px] xs:py-10">
-        <div className="flex lg:w-[80%] xs:w-[90%] xs:flex-col-reverse lg:flex-row mx-auto justify-between">
+        <div className="flex lg:w-[90%] xs:w-[90%] xs:flex-col-reverse lg:flex-row mx-auto xs:space-x-3 justify-between">
             <div className="lg:w-[20%]">
-                <img src="/images/demo-business-logo-white.png" alt="" />
+                <img src="/images/Listacc-logo-01.png" alt=""  className="w-[100px] h-[40px]"/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, quae.</p>
-                <p>&copy 2024 <span className="underline text-white">Crafto</span></p>
+                <p>&copy 2024 </p>
             </div>
             <div className="flex justify-between lg:w-[80%] flex-wrap xs:my-3 lg:my-0">
             <div className="xs:w-[50%] lg:w-[25%]">
@@ -32,7 +32,7 @@ function Footer() {
                 <p>Twitter</p>
                 <p>Instagram</p>
             </div>
-            <div className="xs:w-[50%] lg:w-[25%]">
+            <div className="xs:w-[50%] lg:w-[25%] overflow-clip">
                 <p className="font-Sora text-white">Get in touch</p>
                 <p>401 Broadway, 24th Floor</p>
                 <p>New York, NY 10013</p>

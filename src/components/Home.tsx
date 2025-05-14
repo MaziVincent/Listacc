@@ -136,7 +136,7 @@ function Home() {
     return (
     <div className="font-Sora">
         {/* start image slider */}
-        <div className="bg-gradient-to-tr from-textColorOne to-yellow-600  py-[20px] h-screen flex flex-col justify-evenly">
+        <div className="bg-gradient-to-tr from-textColorOne to-slate-900  py-[20px] h-screen flex flex-col justify-evenly pt-[80px]">
             <div className="overflow-hidden flex w-full " >
                 {
                     slides.map((slide)=>(
