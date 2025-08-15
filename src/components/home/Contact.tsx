@@ -7,7 +7,7 @@ function Contact() {
         {/* section 1 start*/}
         <div className="bg-[#1a2c58] h-[480px] flex justify-center items-center flex-col">
           <h1 className="w-[90%] text-center xs:text-[40px] lg:text-[76px] text-white my-[20px] font-BeVietnam">
-            Contact-business
+            Contact Listacc
           </h1>
           <RiArrowDropDownLine className="text-white xs:text-[40px] lg:text-[75px]" />
         </div>
@@ -19,33 +19,33 @@ function Contact() {
           <div className="bg-indigo-600 text-white w-full md:w-1/2 p-8 rounded-lg shadow-md">
             <div className="mb-6">
               <h2 className="text-lg font-semibold mb-2 border-b border-white w-fit">
-                Keep in touch?
+                Our Office Location
               </h2>
-              <p>401 Broadway, 24th Floor,</p>
-              <p>Orchard View, London</p>
+              <p>3rd Floor, Dreamlinks Concept Building,</p>
+              <p>Mile 50 District, Abakaliki, Nigeria</p>
             </div>
 
             <div className="mb-6">
               <h2 className="text-lg font-semibold mb-2 border-b border-white w-fit">
-                Toll free customer care?
+                Business Inquiries
               </h2>
-              <p>1-800-222-000</p>
-              <p>1-800-222-002</p>
+              <p>+234 (0) 813-869-9452</p>
+              <p>+234 (0) 816-630-0937</p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold mb-2 border-b border-white w-fit">
-                Need live support?
+                Email Support
               </h2>
-              <p>info@yourdomain.com</p>
-              <p>help@yourdomain.com</p>
+              <p>info@listacc.com</p>
+              <p>mail.listacc@gmail.com</p>
             </div>
           </div>
 
           {/* Right Contact Form */}
           <div className="w-full md:w-1/2 p-8">
             <h2 className="text-3xl font-bold mb-6">
-              Feel free to reach via contact us form.
+              Let's discuss your software development needs.
             </h2>
             <form className="space-y-4">
               <input
@@ -61,7 +61,7 @@ function Contact() {
                 required
               />
               <textarea
-                placeholder="Your message"
+                placeholder="Tell us about your project requirements"
                 className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 rows={5}
               />

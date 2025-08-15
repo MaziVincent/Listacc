@@ -42,6 +42,12 @@ function Header() {
 				</Link>
 				<Link
 					className="hover:text-gray-300"
+					to={"/services"}
+				>
+					Services
+				</Link>
+				<Link
+					className="hover:text-gray-300"
 					to={"/contact"}
 				>
 					Contact
@@ -53,7 +59,7 @@ function Header() {
   return (
 		<>
 			<div
-				className={`fixed top-0 left-0 w-full xs:bg-[#f5f5f5] lg:bg-transparent z-10 font-Sora transition-all duration-300 ease-in-out ${
+				className={`fixed top-0 left-0 w-full bg-transparent z-10 font-Sora transition-all duration-300 ease-in-out ${
 					isScrolled
 						? "lg:bg-white lg:text-dropdown shadow-lg"
 						: "lg:bg-transparent lg:text-white"
@@ -74,7 +80,7 @@ function Header() {
 						</div>
 						<button
 							onClick={toggleMenu}
-							className="text-[25px] font-bold lg:hidden py-[4px]"
+							className={`text-[25px] font-bold lg:hidden py-[4px]  `}
 						>
 							{isOpen ? <FiX /> : <FiMenu />}
 						</button>
@@ -97,6 +103,12 @@ function Header() {
 								to={"/about"}
 							>
 								About
+							</Link>
+							<Link
+								className="hover:text-gray-500"
+								to={"/services"}
+							>
+								Services
 							</Link>
 							<Link
 								className="hover:text-gray-500"

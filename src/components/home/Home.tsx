@@ -37,53 +37,53 @@ function Home() {
 
   const planData = [
     {
-      title: "Basic Plan",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quaerat?",
-      price: "19.99",
+      title: "Starter Package",
+      description: "Perfect for small businesses and startups looking to establish their digital presence with essential software solutions.",
+      price: "2,500",
     },
     {
-      title: "Standard Plan",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ex?",
-      price: "29.99",
+      title: "Professional Package",
+      description: "Comprehensive software development services for growing businesses, including custom applications and integrations.",
+      price: "5,000",
     },
     {
-      title: "Premium Plan",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?",
-      price: "49.99",
+      title: "Enterprise Package",
+      description: "Full-scale digital transformation solutions with AI integration, cloud migration, and ongoing support for large organizations.",
+      price: "15,000",
     },
   ];
 
     const businessServices = {
         businessPlanning : (
             <div className="xs:text-center lg:text-left space-y-4">
-                <div className="text-textColorOne flex items-center space-x-3"><PiSuitcase className="bg-white w-[60px] h-[60px] rounded-full p-[10px] text-textColorOne"/><p>Grow and succeed</p> </div>
-                <h1 className="font-bold text-2xl">Work together to make experience</h1>
-                <p>We always want our client grow with the product we have delivered and maintaining strong long-term good relationship.</p>
-                <button className="py-[10px] rounded-full bg-textColorOne px-[20px] text-white">Explore now</button>
+                <div className="text-textColorOne flex items-center space-x-3"><PiSuitcase className="bg-white w-[60px] h-[60px] rounded-full p-[10px] text-textColorOne"/><p>Custom Software Development</p> </div>
+                <h1 className="font-bold text-2xl">Tailored solutions for your business needs</h1>
+                <p>We develop custom software applications that streamline your operations, enhance productivity, and drive digital transformation for your organization.</p>
+                <button className="py-[10px] rounded-full bg-textColorOne px-[20px] text-white">Learn More</button>
             </div>
         ),
         businessResearch : (
             <div className="xs:text-center lg:text-left space-y-4">
-                <div className="text-textColorOne flex items-center space-x-3"><FiEdit className="bg-white w-[60px] h-[60px] rounded-full p-[10px] text-textColorOne"/> Identity strategy</div>
-                <h1 className="font-bold text-2xl">Help our clients succeed by brand</h1>
-                <p>We always want our client grow with the product we have delivered and maintaining strong long-term good relationship.</p>
-                <button className="py-[10px] rounded-full bg-textColorOne px-[20px] text-white">Explore now</button>
+                <div className="text-textColorOne flex items-center space-x-3"><FiEdit className="bg-white w-[60px] h-[60px] rounded-full p-[10px] text-textColorOne"/> Web & Mobile Development</div>
+                <h1 className="font-bold text-2xl">Modern web and mobile applications</h1>
+                <p>From responsive websites to cross-platform mobile apps, we create engaging digital experiences that connect you with your customers.</p>
+                <button className="py-[10px] rounded-full bg-textColorOne px-[20px] text-white">Learn More</button>
             </div>
         ),
         trackingOperations : (
             <div className="xs:text-center lg:text-left space-y-4">
-                <div className="text-textColorOne flex items-center space-x-3"><PiCompass className="bg-white w-[60px] h-[60px] rounded-full p-[10px] text-textColorOne"/> Grow and succeed</div>
-                <h1 className="font-bold text-2xl">Work together to make experience</h1>
-                <p>We always want our client grow with the product we have delivered and maintaining strong long-term good relationship.</p>
-                <button className="py-[10px] rounded-full bg-textColorOne px-[20px] text-white">Explore now</button>
+                <div className="text-textColorOne flex items-center space-x-3"><PiCompass className="bg-white w-[60px] h-[60px] rounded-full p-[10px] text-textColorOne"/> Cloud Solutions</div>
+                <h1 className="font-bold text-2xl">Scalable cloud infrastructure and services</h1>
+                <p>Migrate to the cloud with confidence. We provide secure, scalable cloud solutions that reduce costs and improve performance.</p>
+                <button className="py-[10px] rounded-full bg-textColorOne px-[20px] text-white">Learn More</button>
             </div>
         ),
         businessCampaign : (
             <div className="xs:text-center lg:text-left space-y-4">
-                <div className="text-textColorOne flex items-center space-x-3"><PiSuitcase className="bg-white w-[60px] h-[60px] rounded-full p-[10px] text-textColorOne"/> Experience Strategy</div>
-                <h1 className="font-bold text-2xl">Help our clients succeed by brand</h1>
-                <p>We always want our client grow with the product we have delivered and maintaining strong long-term good relationship.</p>
-                <button className="py-[10px] rounded-full bg-textColorOne px-[20px] text-white">Explore now</button>
+                <div className="text-textColorOne flex items-center space-x-3"><BsGlobe2 className="bg-white w-[60px] h-[60px] rounded-full p-[10px] text-textColorOne"/> AI & Data Analytics</div>
+                <h1 className="font-bold text-2xl">Intelligent solutions powered by AI</h1>
+                <p>Harness the power of artificial intelligence and data analytics to gain insights, automate processes, and make data-driven decisions.</p>
+                <button className="py-[10px] rounded-full bg-textColorOne px-[20px] text-white">Learn More</button>
             </div>
         ),
     }
@@ -148,7 +148,7 @@ function Home() {
     return (
 			<div className="font-Sora">
 				{/* start image slider */}
-				<div className="bg-gradient-to-tr from-textColorOne to-textColorTwo  py-[20px] h-screen flex flex-col justify-evenly">
+				<div className="bg-[url('https://res.cloudinary.com/dbxapeqzu/image/upload/v1753102465/listacc/7064916_3526906_mwe7wg.jpg')] bg-no-repeat bg-cover from-textColorOne to-textColorTwo  py-[20px] h-screen flex flex-col justify-evenly">
 					<div className="overflow-hidden flex w-full ">
 						{slides.map((slide) => (
 							<div
@@ -183,49 +183,49 @@ function Home() {
 						<span>
 							<GoShieldCheck className="text-3xl text-textColorOne " />{" "}
 						</span>
-						World-class services
+						Secure & Reliable Code
 					</p>
 					<p className="flex text-center justify-center p-[20px] space-x-3 xs:w-full md:w-[50%] lg:w-[25%]">
 						<span>
 							<BsHourglass className="text-3xl text-textColorOne " />
 						</span>
-						Experience strategy
+						Agile Development
 					</p>
 					<p className="flex text-center justify-center p-[20px] space-x-3 xs:w-full md:w-[50%] lg:w-[25%]">
 						<span>
 							<BsAward className="text-3xl text-textColorOne " />
 						</span>
-						Award winning agency
+						Industry Recognition
 					</p>
 					<p className="flex text-center justify-center p-[20px] space-x-3 xs:w-full md:w-[50%] lg:w-[25%]">
 						<span>
 							<PiSuitcaseSimpleThin className="text-3xl text-textColorOne " />
 						</span>
-						Grow your business
+						Digital Transformation
 					</p>
 				</div>
 				{/* end second section */}
 				{/* Start section two */}
 				<div className="xs:text-center lg:text-left py-[50px] xs:w-[85%] lg:w-[40%] xs:mx-auto lg:mx-[50px] space-y-4">
 					<button className="py-[10px] px-[20px] text-textColorOne bg-sectionthreecolor rounded-full text-[13px] font-bold">
-						ABOUT LISTACC
+						ABOUT LISTACC LIMITED
 					</button>
 					<p className="xs:text-[30px] lg:text-[44px] font-bold">
-						Smart and effective business solutions.
+						Innovative software solutions for modern businesses.
 					</p>
 					<p className="text-[#868D98]">
-						We are excited for our work and how it positively impacts clients.
-						With over 12 years of experience we have been constantly providing
-						excellent solutions.
+						We are passionate about creating cutting-edge software that transforms businesses.
+						With over 8 years of experience in software development, we have delivered
+						exceptional digital solutions to clients worldwide.
 					</p>
 					<div className="flex items-center space-x-2">
 						<div className="border-[5px] p-[20px] border-textColorOne rounded-full w-[]">
-							90%
+							200+
 						</div>
 						<p className="text-[20px]">
-							Increased revenue in the{" "}
+							Successful projects delivered in the{" "}
 							<span className="text-textColorOne font-bold underline">
-								last 2 years.
+								last 5 years.
 							</span>
 						</p>
 					</div>
@@ -234,7 +234,7 @@ function Home() {
 				{/* start section 3 */}
 				<div className="bg-sectionthreecolor py-[50px] px-[20px]">
 					<h1 className="text-[33px] text-center">
-						Professional and highly dedicated software development Company
+						Comprehensive Software Development Services
 					</h1>
 					<div className="flex xs:flex-col lg:flex-row justify-between lg:m-[100px] xs:my-[50px]">
 						<ul className="lg:w-[30%] px-[15px] space-y-4">
@@ -247,7 +247,7 @@ function Home() {
 								onClick={() => setActBusServ("businessPlanning")}
 							>
 								<PiSuitcase className="text-2xl" />
-								Business Planning
+								Custom Software
 							</li>
 							<li
 								className={`hover:bg-white hover:text-textColorOne hover:cursor-pointer ${
@@ -258,7 +258,7 @@ function Home() {
 								onClick={() => setActBusServ("businessResearch")}
 							>
 								<FiEdit className="text-2xl" />
-								Business research
+								Web & Mobile Apps
 							</li>
 							<li
 								className={`hover:bg-white hover:text-textColorOne hover:cursor-pointer ${
@@ -269,7 +269,7 @@ function Home() {
 								onClick={() => setActBusServ("trackingOperations")}
 							>
 								<PiCompass className="text-2xl" />
-								Trackin operations
+								Cloud Solutions
 							</li>
 							<li
 								className={`hover:bg-white hover:text-textColorOne hover:cursor-pointer ${
@@ -280,7 +280,7 @@ function Home() {
 								onClick={() => setActBusServ("businessCampaign")}
 							>
 								<BsGlobe2 className="text-2xl" />
-								Business campaign
+								AI & Analytics
 							</li>
 						</ul>
 						<div className="lg:w-[30%] transition-all duration-1000 ease-in-out my-[50px] ">
@@ -293,18 +293,17 @@ function Home() {
 				<div className="py-[50px] px-[15px] flex xs:flex-col lg:flex-row w-[80%] mx-auto">
 					<div className="xs:text-center lg:text-left space-y-[25px] xs:w-full lg:w-[50%]">
 						<p className="bg-sectionthreecolor text-textColorOne w-[172px] m-auto text-[13px] py-[15px] px-[10px] rounded-full font-bold text-center">
-							FLEXIBLE PRICING
+							SOFTWARE PACKAGES
 						</p>
 						<h3 className="text-dropdown text-[33.37px] w-[90%] font-bold">
-							Tailored pricing plans for everyone.
+							Choose the perfect software solution for your business.
 						</h3>
 						<p className="text-textColorTwo text-[17px]">
-							We are excited for our work and how it positively impacts clients.
-							With over 12 years of experience we have been constantly providing
-							excellent solutions.
+							From startups to enterprise organizations, we offer scalable software development
+							packages designed to meet your specific needs and budget requirements.
 						</p>
 						<button className="bg-dropdown text-white w-[60%] m-auto text-[13px] py-[15px] px-[10px] rounded-full font-bold">
-							VIEW ALL PLANS
+							GET QUOTE
 						</button>
 					</div>
 					<div className="xs:w-full lg:w-[50%] my-[50px] max-w-md mx-auto space-y-5">
@@ -340,7 +339,7 @@ function Home() {
 									<div className="flex items-center justify-between">
 										<h3 className="text-xl font-bold">
 											${plan.price}{" "}
-											<span className="text-sm font-normal">/ Monthly</span>
+											<span className="text-sm font-normal">/ Project</span>
 										</h3>
 										<button className=" text-white border-[1px] border-white py-2 px-4 rounded-full">
 											GET STARTED

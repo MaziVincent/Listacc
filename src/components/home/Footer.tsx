@@ -20,19 +20,22 @@ function Footer() {
 					<div className="xs:w-[50%] lg:w-[25%] flex flex-col">
 						<p className="font-Sora text-white text-xl">Company</p>
 						<Link to="/about">About Us</Link>
+						<Link to="/services">Services</Link>
 						<Link to="/contact">Contact</Link>
+						<p>Portfolio</p>
 					</div>
 
 					<div className="xs:w-[50%] lg:w-[25%]">
-						<p className="font-Sora text-white text-xl">Social Connect</p>
-						<p>Facebook</p>
-						<p>Twitter</p>
-						<p>Instagram</p>
+						<p className="font-Sora text-white text-xl">Services</p>
+						<p>Custom Software</p>
+						<p>Web Development</p>
+						<p>Mobile Apps</p>
+						<p>Cloud Solutions</p>
 					</div>
-					<div className="xs:w-[50%] lg:w-[25%]">
-						<p className="font-Sora text-white text-xl">Get in touch</p>
-						<p>3rd Floor, DreamLinks Concept</p>
-						<p>Abakaliki, EB, NG </p>
+					<div className="xs:w-[60%] lg:w-[25%]">
+						<p className="font-Sora text-white text-xl">Contact Info</p>
+						<p>3rd Floor, Dreamlinks Concept Building</p>
+						<p>Abakaliki, Nigeria</p>
 						<p className="flex text-white space-x-2 items-center">
 							<FiPhoneCall />
 							+234 8138699452
@@ -42,14 +45,14 @@ function Footer() {
 							+234 8166300937
 						</p>
 						<p className="flex text-white space-x-2 items-center">
-							<CiMail /> <span className="underline">info@domain.com</span>
+							<CiMail /> <span className="underline">info@listacc.com</span>
 						</p>
 					</div>
 				</div>
 			</div>
 			<div className="">
 				<p>
-					&copy; 2025 <span className="underline text-white">Listacc Ltd.</span>
+					&copy; 2025 <span className="underline text-white">Listacc Limited</span> - Software Development Company. All rights reserved.
 				</p>
 			</div>
 		</div>
