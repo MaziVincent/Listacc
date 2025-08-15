@@ -3,11 +3,13 @@ import { CiMail } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 function Footer() {
+
+
   return (
 		<div className=" px-10  bg-[#1a2c58] text-textColorTwo py-5 font-BeVietnam text-[17px] xs:py-10">
 			<div className=" lg:w-[80%] xs:w-[90%] ">
 				<img
-					src="/images/Listacc-logo-01.png"
+					src= "/images/logo-light.png"
 					alt=""
 					className="w-32"
 				/>
@@ -22,7 +24,7 @@ function Footer() {
 						<Link to="/about">About Us</Link>
 						<Link to="/services">Services</Link>
 						<Link to="/contact">Contact</Link>
-						<p>Portfolio</p>
+						
 					</div>
 
 					<div className="xs:w-[50%] lg:w-[25%]">
@@ -52,7 +54,9 @@ function Footer() {
 			</div>
 			<div className="">
 				<p>
-					&copy; 2025 <span className="underline text-white">Listacc Limited</span> - Software Development Company. All rights reserved.
+					&copy; 2025{" "}
+					<span className="underline text-white">Listacc Limited</span> -
+					Software Development Company. All rights reserved.
 				</p>
 			</div>
 		</div>
