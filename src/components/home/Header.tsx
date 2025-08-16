@@ -54,11 +54,17 @@ function Header() {
 				<header className="">
 					<div className="flex flex-row justify-between items-center px-10 py-3">
 						<div className=" w-32">
-							<img
-								src={`${ isScrolled ? '/images/Listacc-logo-01.png' : '/images/logo-light.png'}`}
-								alt=""
-								className="w-full"
-							/>
+							<Link to="/">
+								<img
+									src={`${
+										isScrolled
+											? "/images/Listacc-logo-01.png"
+											: "/images/logo-light.png"
+									}`}
+									alt=""
+									className="w-full"
+								/>
+							</Link>
 						</div>
 
 						<div className="w-[50%] xs:hidden lg:block py-[4px]">
