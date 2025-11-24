@@ -8,11 +8,7 @@ function Footer() {
   return (
 		<div className=" px-10  bg-[#1a2c58] text-textColorTwo py-5 font-BeVietnam text-[17px] xs:py-10">
 			<div className=" lg:w-[80%] xs:w-[90%] ">
-				<img
-					src= "/images/logo-light.png"
-					alt=""
-					className="w-32"
-				/>
+				<img src="/images/logo-light.png" alt="" className="w-32" />
 			</div>
 			<div className="flex  lg:w-[80%] xs:w-[90%] xs:flex-col-reverse gap-10 lg:flex-row  justify-evenly">
 				<div className="lg:w-[20%]">
@@ -21,10 +17,10 @@ function Footer() {
 				<div className="flex justify-between lg:w-[80%] flex-wrap xs:my-3 lg:my-0">
 					<div className="xs:w-[50%] lg:w-[25%] flex flex-col">
 						<p className="font-Sora text-white text-xl">Company</p>
+						<a href="https://academy.listacc.com">Academy</a>
 						<Link to="/about">About Us</Link>
 						<Link to="/services">Services</Link>
 						<Link to="/contact">Contact</Link>
-						
 					</div>
 
 					<div className="xs:w-[50%] lg:w-[25%]">
