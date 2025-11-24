@@ -30,6 +30,9 @@ function Header() {
 				<Link className="hover:text-gray-300" to={"/"}>
 					Home
 				</Link>
+				<a className="hover:text-gray-300" href="https://academy.listacc.com">
+					Academy
+				</a>
 				<Link className="hover:text-gray-300" to={"/about"}>
 					About
 				</Link>
@@ -87,7 +90,11 @@ function Header() {
 							<Link className="hover:text-gray-500" to={"/"}>
 								Home
 							</Link>
-							<a href="https://academy.listacc.com">Academy</a>
+							<a
+								className="hover:text-gray-500"
+								href="https://academy.listacc.com">
+								Academy
+							</a>
 							<Link className="hover:text-gray-500" to={"/about"}>
 								About
 							</Link>
